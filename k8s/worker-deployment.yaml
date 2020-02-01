@@ -20,4 +20,7 @@ spec:
                       value: redis-cluster-ip-service
                     - name: REDIS_PORT
                       value: '6379'
+            api:
+                depends_on:
+                    - postgres
                   
