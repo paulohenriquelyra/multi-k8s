@@ -5,7 +5,7 @@ metadata:
 spec:
     SecretName: plfotos-com
     issuerRef:
-        name: letsencrypt-prod
+        name: letsencrypt-staging 
         kind: ClusterIssuer
     commonName: plfotos.com
     dnsNames:
